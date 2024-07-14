@@ -1,0 +1,80 @@
+.contactContainer {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.headerContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.textContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.mapContainer {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.mapImage {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.mapImage:hover {
+  transform: scale(1.5);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(17, 17, 96);
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: rgb(17, 17, 96);
+}

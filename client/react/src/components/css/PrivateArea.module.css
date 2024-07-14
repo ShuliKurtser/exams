@@ -1,0 +1,72 @@
+.wrapArea {
+  direction: ltr;
+  height: 250px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+td {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+th {
+
+  background-color: #e7f1f9;
+  ;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+
+.textDecoration {
+  text-decoration: underline;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(15, 15, 118);
+}
+
+.tableDivider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: rgb(77, 124, 206);
+  font-weight: bold;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.secondTitle {
+  color: rgb(15, 15, 118);
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
